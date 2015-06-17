@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.timemanager.LoginActivity"
+    android:orientation="vertical" >
+	
+    <EditText 
+        android:id="@+id/registerUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:background="@drawable/editrow"/>
+    
+   <EditText 
+       android:id="@+id/registerPassword1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="textPassword"
+       android:hint="请输入密码"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/editrow"/>
+   
+   <EditText 
+       android:id="@+id/registerPassword2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="textPassword"
+       android:hint="请再次输入密码"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/editrow"/>
+   
+   <Button
+       android:id="@+id/registerOK"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="注册"
+       android:layout_marginTop="10dp"
+       android:background="@android:color/holo_blue_light"
+       android:textColor="@android:color/white"/>
+
+</LinearLayout>

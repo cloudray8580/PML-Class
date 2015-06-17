@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.timemanager.WelcomeActivity"
+    android:background="@drawable/mainbackground" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="20dp">
+        
+        <Button 
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="注册"
+            android:background="@drawable/shape"
+            android:textColor="@android:color/white"
+            android:visibility="invisible"/>
+        
+        <!-- 用这个分开两个控件 -->
+        <LinearLayout 
+            android:layout_width="10dp"
+            android:layout_height="fill_parent">
+            
+        </LinearLayout>
+        
+        <Button 
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="登录"
+            android:background="@drawable/shape"
+            android:textColor="@android:color/white"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+</RelativeLayout>
